@@ -1,0 +1,95 @@
+:root {
+  --white-color: #fff;
+  --accent-color: #caa892;
+  --button-color: #37806b;
+  --text-color: #646464;
+  --title-color: #212121;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-weight: normal;
+  color: var(--text-color);
+  font-size: 18px;
+}
+
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1346px;
+  margin: 0 auto;
+}
+
+/* HEADER */
+.header__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 34px;
+  margin-bottom: 94px;
+}
+.nav__list {
+  display: flex;
+  gap: 44px;
+}
+
+.nav__link {
+  color: var(--title-color);
+  font-weight: 600;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+.nav__link:hover {
+  color: var(--text-color);
+}
+
+/* HERO */
+.hero {
+  display: flex;
+  align-items: center;
+  gap: 44px;
+}
+.hero__pretitle {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+.hero__title {
+  color: var(--title-color);
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 72px;
+  margin-bottom: 23px;
+}
+
+.hero__description {
+  margin-bottom: 46px;
+}
+
+.hero__img {
+  width: 716px;
+  height: 626px;
+}
+.hero__button {
+  background-color: var(--button-color);
+  color: var(--white-color);
+  text-transform: uppercase;
+  width: 142px;
+  height: 43px;
+  font-weight: 700;
+  font-size: 18px;
+  border: 1px solid var(--button-color);
+  border-radius: 20px 0 20px 0;
+}
