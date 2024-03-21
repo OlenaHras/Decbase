@@ -10,15 +10,17 @@
     <header>
       <div class="container">
         <div class="header__wrapper">
-          <img class="logo" src="./img/logo.png" alt="'logo" />
+          <a href="./index.html"
+            ><img class="logo" src="./img/logo.png" alt="'logo"
+          /></a>
           <nav class="nav">
             <ul class="nav__list">
               <li class="nav__item"><a href="#" class="nav__link">Home</a></li>
               <li class="nav__item">
-                <a href="#" class="nav__link">Project</a>
+                <a href="#project" class="nav__link">Project</a>
               </li>
               <li class="nav__item">
-                <a href="#" class="nav__link">Services</a>
+                <a href="#services" class="nav__link">Services</a>
               </li>
               <li class="nav__item"><a href="#" class="nav__link">About</a></li>
               <li class="nav__item"><a href="#" class="nav__link">Blog</a></li>
@@ -32,10 +34,10 @@
       </div>
     </header>
     <main>
-      <div class="container">
+      <div id="project" class="container">
         <div class="hero">
           <div class="hero__info">
-            <p class="hero__pretitle">MODERN INTERIOR</p>
+            <p class="pretitle">MODERN INTERIOR</p>
             <h1 class="hero__title">Create Your Interior Design.</h1>
             <p class="hero__description">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -49,6 +51,56 @@
             src="./img/hero-img.png"
             alt="decore example"
           />
+        </div>
+      </div>
+      <div id="services" class="container">
+        <div class="services">
+          <p class="pretitle">What we do</p>
+          <h2 class="services__title">Our Service</h2>
+          <ul class="services__list">
+            <li class="services__item">
+              <img
+                class="item__img"
+                src="./img/svg/interior.svg"
+                alt="Interior Design"
+              />
+              <div class="item__desc">
+                <h3>Interior Design</h3>
+                <p>
+                  Lorem ipsum dolor amet consectetur adipiscing elit sed eiusmod
+                  tempor incididunt ut labore.
+                </p>
+              </div>
+            </li>
+            <li class="services__item">
+              <img
+                class="item__img"
+                src="./img/svg/architecture.svg"
+                alt="Architecture"
+              />
+              <div class="item__desc">
+                <h3>Architecture</h3>
+                <p>
+                  Lorem ipsum dolor amet consectetur adipiscing elit sed eiusmod
+                  tempor incididunt ut labore.
+                </p>
+              </div>
+            </li>
+            <li class="services__item">
+              <img
+                class="item__img"
+                src="./img/svg/planning.svg"
+                alt="Planning"
+              />
+              <div class="item__desc">
+                <h3>Planning</h3>
+                <p>
+                  Lorem ipsum dolor amet consectetur adipiscing elit sed eiusmod
+                  tempor incididunt ut labore.
+                </p>
+              </div>
+            </li>
+          </ul>
         </div>
       </div>
     </main>
