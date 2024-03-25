@@ -10,6 +10,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -62,6 +63,14 @@ a {
   color: var(--text-color);
 }
 
+.sections__title {
+  font-family: "Poppins";
+  font-size: 48px;
+  font-weight: 500;
+  color: var(--title-color);
+  margin-bottom: 50px;
+}
+
 /* HERO */
 .hero {
   display: flex;
@@ -85,7 +94,7 @@ a {
   width: 716px;
   height: 626px;
 }
-.hero__button {
+.button {
   background-color: var(--button-color);
   color: var(--white-color);
   text-transform: uppercase;
@@ -100,13 +109,6 @@ a {
 /* SERVICES */
 .services {
   margin-bottom: 204px;
-}
-.services__title {
-  font-family: "Poppins";
-  font-size: 48px;
-  font-weight: 500;
-  color: var(--title-color);
-  margin-bottom: 50px;
 }
 
 .services__list {
@@ -136,4 +138,34 @@ a {
 }
 .item__desc {
   width: 307px;
+}
+
+/* ABOUT */
+
+.about-desc {
+  display: flex;
+  gap: 132px;
+  margin-bottom: 224px;
+}
+
+.about-desc__info {
+  margin-top: 58px;
+}
+
+.about-desc__img {
+  width: 681px;
+  height: 726px;
+}
+
+.about-desc__description {
+  margin-bottom: 46px;
+}
+
+.success__desc {
+  margin-top: 132px;
+}
+
+.success__img {
+  margin-bottom: 28px;
+  width: 327px;
 }
